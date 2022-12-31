@@ -47,6 +47,10 @@ a{
     justify-content: center;
     align-items: center;
 }
+.df_ct{
+    display: flex;
+    justify-content: space-between;
+}
 /* End Display flex blocks */
 
 /* Top header styling */
@@ -355,9 +359,87 @@ a{
 }
 .col_bg{
     transition: all .4s ease;
+    border-radius: 1rem;
 }
 .col_bg:hover{
     transform: scale(1.2);
     z-index: 2;
 }
 /* End Blog section styling */
+/* Contact section styling */
+.contact{
+    padding: 3rem 0;
+    margin-top: 7rem;
+    background-image: url("../img/registration.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text_ct .first_ct{
+    padding: 0.5rem 0;
+    letter-spacing: 0.5rem;
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 1.2rem; 
+    text-shadow: 0 0 10px black;
+}
+.text_ct h1{
+    color: white;
+    padding: 0.5rem 0;
+    font-size: 2rem;
+    text-shadow: 0 0 10px black;
+}
+.text_ct p{
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    text-shadow: 0 0 10px black;
+}
+.text_ct i{
+    color: #ff6600;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    text-shadow: 0 0 10px black;
+}
+.form{
+    background-color: #ff6600;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.form input{
+    display: block;
+    width: 25rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+.form input:focus{
+    outline: none;
+}
+.form h1{
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    color: #44425e;
+    font-size: 2rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.content_form{
+    padding: 1rem;
+}
+.btn_ct{
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    width: 25rem;
+    border: none;
+    background-color: #44425e;
+    font-size: 1.3rem;
+    color: white;
+}
+.btn_ct:hover{
+    background-color: #22212d;
+}
+/* End Contact section styling */
