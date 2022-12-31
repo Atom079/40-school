@@ -23,6 +23,7 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+
 /* Display flex blocks */
 .df_thr{
     display: flex;
@@ -33,7 +34,12 @@ body{
     display: flex;
     align-items: center;
 }
+.content_nv{
+    display: flex;
+    justify-content: space-between;
+}
 /* End Display flex blocks */
+
 /* Top header styling */
 .top-header{
     padding: 1rem 2rem;
@@ -46,6 +52,7 @@ body{
     color: #44425e;
     padding: 0 1rem;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 .df2_thr i{
     color: #ff6600;
@@ -63,3 +70,39 @@ body{
     padding: 0 0.5rem;
 }
 /* End Top header styling */
+/* Navbar styling */
+.navbar{
+    padding: 1rem 0;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin-right: 3rem;
+    list-style: none;
+}
+.nav-links li a{
+    color: #44425e;
+    font-size: 1.2rem;
+    transition: all .5s ease;
+}
+.nav-links li a:hover{
+    color: #ff6600;
+}
+.nav-links .active_link_nv{
+    color: #ff6600;
+}
+.bars{
+    display: none;
+}
+.bars i{
+    font-size: 2rem;
+    color: #44425e;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.bars i:hover{
+    color: #ff6600;
+}
+/* End Navbar styling */
