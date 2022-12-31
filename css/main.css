@@ -42,6 +42,11 @@ a{
     justify-content: center;
     align-items: center;
 }
+.df_bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* End Display flex blocks */
 
 /* Top header styling */
@@ -214,12 +219,14 @@ a{
 }
 .col_tr{
     margin: 1rem;
-    height: 25rem;
-    width: 50%;
+    height: 20rem;
+    width: 100%;
 }
 .img_tr{
     height: 70%;
     width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 .img1_tr{
     background-image: url("../img/team-2.jpg");
@@ -250,6 +257,8 @@ a{
     background-color: #44425ea9;
     opacity: 0;
     transition: all .4s ease-out;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 .icons_tr i{
     padding: 1rem;
@@ -271,6 +280,8 @@ a{
     width: 100%;
     height: 7rem;
     padding: 0.5rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .name_tr{
     color: #44425e;
@@ -279,3 +290,74 @@ a{
     color: #6c6a74;
 }
 /* End Teacher section styling */
+/* Blog section styling */
+.blog{
+    padding: 7rem 0;
+}
+.first_bg{
+    padding: 0.5rem 0;
+    letter-spacing: 0.5rem;
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 1.2rem; 
+    text-align: center;
+}
+.heading_bg{
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+    color: #44425e;
+    letter-spacing: 0.1rem; 
+    text-align: center;
+}
+.col1_bg{
+    margin: 0 1rem;
+    height: 25rem;
+    width: 30%;
+    background-image: url("../img/blog-1.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 1rem;
+}
+.col2_bg{
+    margin: 0 1rem;
+    height: 25rem;
+    width: 30%;
+    background-image: url("../img/blog-2.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 1rem;
+}
+.col3_bg{
+    margin: 0 1rem;
+    height: 25rem;
+    width: 30%;
+    background-image: url("../img/blog-3.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 1rem;
+}
+.text_bg h1{
+    color: white;
+}
+.text_bg p{
+    color: #ff6600;
+    background-color: white;
+    padding: 0.5rem;
+}
+.col_bg{
+    transition: all .4s ease;
+}
+.col_bg:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+/* End Blog section styling */
