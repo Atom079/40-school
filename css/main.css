@@ -15,7 +15,7 @@ a{
 }
 
 .container{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 .container_thr{
@@ -48,6 +48,10 @@ a{
     align-items: center;
 }
 .df_ct{
+    display: flex;
+    justify-content: space-between;
+}
+.df_foo{
     display: flex;
     justify-content: space-between;
 }
@@ -376,12 +380,14 @@ a{
     background-position: center;
 }
 .text_ct .first_ct{
-    padding: 0.5rem 0;
+    padding: 0.5rem;
+    display: inline-block;
     letter-spacing: 0.5rem;
     color: #ff6600;
     font-weight: bold;
     font-size: 1.2rem; 
     text-shadow: 0 0 10px black;
+    background-color: #fff;
 }
 .text_ct h1{
     color: white;
@@ -438,8 +444,74 @@ a{
     background-color: #44425e;
     font-size: 1.3rem;
     color: white;
+    cursor: pointer;
 }
 .btn_ct:hover{
     background-color: #22212d;
 }
 /* End Contact section styling */
+/* footer styling */
+.footer{
+    padding: 3rem 1rem;
+    background-color: #44425e;
+}
+.col_foo{
+    padding: 1rem;
+    width: 30%;
+}
+.col_foo .heading_foo{
+    color: #ff6600;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    letter-spacing: 0.5rem;
+}
+.col_foo p{
+    color: white;
+    padding: 0.3rem 0;
+}
+.col_foo i{
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.icons_foo i{
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    transition: all .4 ease;
+}
+.icons_foo i:hover{
+    background-color: white;
+    color: #44425e;
+}
+.foo-link li{
+    color: white;
+    padding: 0.5rem;
+}
+.foo-link li a{
+    color: white;
+    
+}
+.form-control{
+    width: 15rem;
+    padding: 0.5rem;
+}
+.form-control:focus{
+    outline: none;
+}
+.email-div{
+    position: relative;
+}
+.btn_foo{
+    background-color: #ff6600;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    position: absolute;
+}
+.bottom-footer{
+    padding: 1rem;
+    border-top: 1px solid #fff;
+    color: white;
+}
+/* End footer styling */
