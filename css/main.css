@@ -15,3 +15,51 @@ a{
 body{
     scroll-behavior: smooth;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container_thr{
+    width: 90%;
+    margin: 0 auto;
+}
+/* Display flex blocks */
+.df_thr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.df2_thr{
+    display: flex;
+    align-items: center;
+}
+/* End Display flex blocks */
+/* Top header styling */
+.top-header{
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #9999;
+}
+.logo span{
+    color: #ff6600;
+}
+.logo{
+    color: #44425e;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+.df2_thr i{
+    color: #ff6600;
+    font-size: 2rem;
+    padding: 0 0.8rem;
+}
+.df2_thr b{
+    color: #44425e;
+}
+.smallp_thr{
+    font-size: 0.8rem;
+    color: #6c6a74;
+}
+.col_thr{
+    padding: 0 0.5rem;
+}
+/* End Top header styling */
