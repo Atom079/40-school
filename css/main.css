@@ -85,7 +85,7 @@ body{
 .nav-links li a{
     color: #44425e;
     font-size: 1.2rem;
-    transition: all .5s ease;
+    transition: all .4s ease;
 }
 .nav-links li a:hover{
     color: #ff6600;
@@ -106,3 +106,41 @@ body{
     color: #ff6600;
 }
 /* End Navbar styling */
+/* Intro section styling */
+.intro{
+    background-image: url("../img/carousel-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.content_io{
+    width: 75%;
+    margin: 0 auto;
+}
+.content_io p{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.content_io h1{
+    font-size: 5rem;
+    color: white;
+}
+.btn_io{
+    padding: 0.5rem 3rem;
+    background-color: #ff6600;
+    display: inline-block;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.btn_io a{
+    color: white;
+}
+.btn_io:hover{
+    background-color: #e25b00;
+}
+/* End Intro section styling */
