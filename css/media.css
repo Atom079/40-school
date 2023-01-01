@@ -1,0 +1,150 @@
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .logo{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .container_thr{
+        width: 100%;
+    }
+    .top-header{
+        padding: 1rem;
+    }
+    .df2_thr i{
+        font-size: 1.2rem;
+    }
+    .content_io h1{
+        font-size: 4rem;
+    }
+    
+}
+@media screen and (max-width: 1024px) {
+    .navbar{
+        padding: 0;
+    }
+    body{
+        position: relative;
+    }
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .col_thr{
+        display: none;
+    }
+    .top-header{
+        z-index: 9;
+        background-color: #fff;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        display: inline-block;
+        left: 0;
+        padding: 1rem;
+        transform: translateY(-100%);
+        transition: all .4s ease;
+        z-index: -10;
+    }
+    .nav-links li{
+        padding: 0.5rem;
+    }
+    .bars{
+        display: block;
+    }
+    .logo{
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+    .top-header{
+        padding: 1rem 0.5rem;
+    }
+    .content_io h1{
+        font-size: 3.5rem;
+    }
+    .content_io{
+        width: 85%;
+    }
+    .df_at{
+        display: block;
+    }
+    .img_at{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .about{
+        justify-content: center;
+        padding: 2rem 0;
+    }
+    .teacher{
+        padding: 2rem 0;
+    }
+    .blog{
+        padding: 1rem 0;
+    }
+    .df_tr{
+        display: block;
+    }
+    .df_bg{
+        display: block;
+    }
+    .df_ct{
+        display: block;
+    }
+    .df_foo{
+        display: block;
+    }
+    .col_bg{
+        width: 100%;
+        margin: 2rem auto;
+    }
+    
+    .form input{
+        width: 100%;
+    }
+    .btn_ct{
+        width: 100%;
+    }
+    .col_foo{
+        width: 90%;
+        margin: 1rem 0;
+    }
+    .btn_foo{
+        width: 40%;
+    }
+    .bottom-footer{
+        font-size: 0.7rem;
+    }
+    
+    .about h1{
+        font-size: 1.5rem;
+    }
+    .heading_bg{
+        font-size: 2rem;
+    }
+    .teacher h1{
+        font-size: 2rem;
+    }
+    .col_tr{
+        width: 95%; 
+        margin: 3rem 0;
+    }
+}
+/* Javascript styling */
+.active_Nav{
+    
+    z-index: 1;
+    transform: translateX(0);
+}
+/* End Javascript styling */
+@media screen and (min-width: 450px) and (max-width: 1230px) {
+    .col_tr{
+        width: 45%;
+        float: left;
+        margin: 0.5rem;
+    }
+    .col_bg{
+        height: 40rem;
+        width: 85%;
+    }
+}
